@@ -1,0 +1,8 @@
+{
+  "execPath": "/opt/ros/melodic/bin/catkin_make",
+  "gccDefaultCFlags": "-Wall",
+  "gccDefaultCppFlags": "roslint_create_video #",
+  "gccErrorLimit": 15,
+  "gccIncludePaths": ".,./include,./path",
+  "gccSuppressWarnings": false
+}
