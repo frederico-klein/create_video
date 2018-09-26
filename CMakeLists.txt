@@ -4,7 +4,7 @@ project(create_video)
 catkin_package()
 
 find_package(catkin REQUIRED COMPONENTS
-    roslint
+    #roslint
     cv_bridge
     image_transport
     message_filters
@@ -22,7 +22,7 @@ include_directories(${Boost_INCLUDE_DIRS}
                     ${OpenCV_INCLUDE_DIRS}
 )
 
-roslint_cpp()
+#roslint_cpp()
 
 add_executable(video_recorder src/video_recorder.cpp)
 target_link_libraries(video_recorder ${catkin_LIBRARIES}
