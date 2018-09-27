@@ -25,7 +25,7 @@
 #include <sensor_msgs/image_encodings.h>
 #include <cv_bridge/cv_bridge.h>
 #include <image_transport/image_transport.h>
-#include <camera_calibration_parsers/parse.h>
+//#include <camera_calibration_parsers/parse.h>
 #if CV_MAJOR_VERSION == 3
 #include <opencv2/videoio.hpp>
 #endif
