@@ -1,0 +1,7 @@
+<launch>
+  <node name="extract1" pkg="create_video"   type="video_recorder" respawn="false" output="screen">
+    <remap from="image" to="/camera/rgb/image_raw" />
+    <param name="filename_format" value=""/>
+    <param name="filename" value="/temporal-segment-networks/ros_video/ua/foo.avi"/>
+  </node>
+</launch>
